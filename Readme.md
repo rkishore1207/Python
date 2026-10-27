@@ -39,3 +39,11 @@
 - round(34.4412, 2) => 35.44
 - `chr(97)` => 'a'
 - `ord('A')` => 65
+
+### List
+- Python is Upper Bound Exclusive.
+- Accessing order is from left to right only.
+- To access last element, use Negative.
+- Tuple is also a datatype in Python, it have paranthesis instead of square brackets.
+- Tuple is immutable
+- values = (1, 2, "Three")
