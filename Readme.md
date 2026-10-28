@@ -47,3 +47,17 @@
 - Tuple is also a datatype in Python, it have paranthesis instead of square brackets.
 - Tuple is immutable
 - values = (1, 2, "Three")
+
+### Function
+- If the function doesn't return anything then it's type is **NoneType**
+- `isinstance(variable, datatype)` => will return true or false, if the variable is in the same type.
+
+### File
+- type of file is `fileObject`.
+- To know all the functions in the object, we have to use `dir(object)`.
+- **myFile.read()** will return the cotent from the Cursor to the end of the file.
+- At the first time, the cursor at the top left corner.
+- When we use the myFile.read(), it will read and come to the end of the file.
+- Then, if we read it again, it will return the empty string only.
+- To make to go at the Top left corner, we have to use `myFile.seek(0)`.
+- Once we read the file, we need to close the file connection also => `object.clos()`.
