@@ -61,3 +61,6 @@
 - Then, if we read it again, it will return the empty string only.
 - To make to go at the Top left corner, we have to use `myFile.seek(0)`.
 - Once we read the file, we need to close the file connection also => `object.clos()`.
+- To write a file need to pass the **mode argument** into it.
+- `w` for write, `a` for append and `a+` for append and edit.
+- `glob` module is used to get the fileNames as list
