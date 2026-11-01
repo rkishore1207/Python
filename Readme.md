@@ -30,6 +30,8 @@
 | `pip3 uninstall library` | `-same-` | Uninstall a package for Python 3 |
 
 - `nano` is the text editor.
+- To install python module - `py -3 -m pip install wxPython`
+- `pyinstaller` is the module to make .py file into executable file.
 
 ### Built In Functions
 
