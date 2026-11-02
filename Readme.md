@@ -66,3 +66,7 @@
 - To write a file need to pass the **mode argument** into it.
 - `w` for write, `a` for append and `a+` for append and edit.
 - `glob` module is used to get the fileNames as list
+
+
+### WebAPI
+- **@app.route("/")** => Decorator
